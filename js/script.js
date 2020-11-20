@@ -14,4 +14,16 @@ window.addEventListener('DOMContentLoaded', () => {
             menu.classList.toggle('subheader_list_active');
         })
     })
-})
+});
+$(document).ready(function(){
+    $('.slider_innet').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        prevArrow: '<button type="button" class="slick-prev">Вперёд</button>',
+        nextArrow: '<button type="button" class="slick-next">Назад</button>',
+        adaptiveHeight: true
+      });
+      
+  });

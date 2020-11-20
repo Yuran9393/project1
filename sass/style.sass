@@ -156,7 +156,46 @@ a
 					display: none
 				&:nth-child(3)
 					transform: rotate(45deg)												
-
+.slider
+	padding: 41px 0
+	background-color:  #95e1d3
+	&_innet
+		width: 50%
+		margin: 0 auto
+		position: relative
+	&_title
+		@include title	
+	&_subtitle
+		@include subtitle
+		margin-top: 23px
+		margin-bottom: 23px
+	.slick-prev 
+		position: absolute
+		left: -12%
+		top: 40%
+		padding: 10px
+		background-color: #fff
+		margin-bottom: 5px
+		border: none
+		font-size: 14px
+		font-family: 'Kaushan Script', cursive
+		border-radius: 50%
+		text-align: center
+		width: 75px
+	.slick-next
+		position: absolute
+		right: -5%
+		top: 40%
+		float: right	
+		padding: 10px
+		background-color: #fff
+		margin-top: 5px
+		border: none
+		font-size: 14px
+		font-family: 'Kaushan Script', cursive
+		border-radius: 50%
+		text-align: center
+		width: 75px
 .about-us
 	&_content	
 	min-height: 750px

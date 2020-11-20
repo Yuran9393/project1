@@ -204,6 +204,56 @@ a {
           -webkit-transform: rotate(45deg);
                   transform: rotate(45deg); } }
 
+.slider {
+  padding: 41px 0;
+  background-color: #95e1d3; }
+  .slider_innet {
+    width: 50%;
+    margin: 0 auto;
+    position: relative; }
+  .slider_title {
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center; }
+  .slider_subtitle {
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 23px;
+    margin-bottom: 23px; }
+  .slider .slick-prev {
+    position: absolute;
+    left: -12%;
+    top: 40%;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border: none;
+    font-size: 14px;
+    font-family: "Kaushan Script", cursive;
+    border-radius: 50%;
+    text-align: center;
+    width: 75px; }
+  .slider .slick-next {
+    position: absolute;
+    right: -5%;
+    top: 40%;
+    float: right;
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 5px;
+    border: none;
+    font-size: 14px;
+    font-family: "Kaushan Script", cursive;
+    border-radius: 50%;
+    text-align: center;
+    width: 75px; }
+
 .about-us {
   min-height: 750px; }
   .about-us_title {
