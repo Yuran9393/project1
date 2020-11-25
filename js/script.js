@@ -15,15 +15,22 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     })
 });
-$(document).ready(function(){
-    $('.slider_innet').slick({
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2500,
+//$(document).ready(function(){
+  //  $('.slider_innet').slick({
+    //    slidesToShow: 2,
+      //  slidesToScroll: 1,
+        //autoplay: true,
+        //autoplaySpeed: 2500,
+        //prevArrow: '<button type="button" class="slick-prev">Вперёд</button>',
+        //nextArrow: '<button type="button" class="slick-next">Назад</button>',
+        //adaptiveHeight: true
+      //});
+      $(document).ready(function(){
+       $('.slider_innet').slick({
+        adaptiveHeight: true,
         prevArrow: '<button type="button" class="slick-prev">Вперёд</button>',
         nextArrow: '<button type="button" class="slick-next">Назад</button>',
-        adaptiveHeight: true
-      });
+        
+       })
       
   });

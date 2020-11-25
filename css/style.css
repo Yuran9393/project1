@@ -207,8 +207,11 @@ a {
 .slider {
   padding: 41px 0;
   background-color: #95e1d3; }
+  @media screen and (max-width: 1600px) {
+    .slider {
+      display: none; } }
   .slider_innet {
-    width: 50%;
+    max-width: 38%;
     margin: 0 auto;
     position: relative; }
   .slider_title {
@@ -231,28 +234,33 @@ a {
     left: -12%;
     top: 40%;
     padding: 10px;
-    background-color: #fff;
     margin-bottom: 5px;
-    border: none;
     font-size: 14px;
     font-family: "Kaushan Script", cursive;
-    border-radius: 50%;
     text-align: center;
-    width: 75px; }
+    width: 75px;
+    border: 1px solid #fff;
+    text-transform: uppercase; }
   .slider .slick-next {
     position: absolute;
-    right: -5%;
+    right: -12%;
     top: 40%;
     float: right;
     padding: 10px;
-    background-color: #fff;
     margin-top: 5px;
-    border: none;
     font-size: 14px;
     font-family: "Kaushan Script", cursive;
-    border-radius: 50%;
     text-align: center;
-    width: 75px; }
+    width: 75px;
+    border: 1px solid #fff;
+      border-text-transform: uppercase; }
+  .slider_line {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px; }
 
 .about-us {
   min-height: 750px; }
@@ -612,8 +620,9 @@ a {
       margin-bottom: 11px; } }
 
 .maps {
-  height: 200px;
-  background: url("../img/icons/footer.png") center center/cover no-repeat; }
+  min-height: 500px;
+  background: url("../img/icons/footer.png") center center/cover no-repeat;
+  padding-bottom: 20px; }
   .maps_title {
     color: #f38181;
     font-size: 24px;
@@ -632,18 +641,58 @@ a {
     display: block;
     margin: 0 auto;
     padding-top: 57px; }
+  .maps_map {
+    margin-top: 20px; }
 
 .footer {
-  max-height: 50px;
-  height: 40px;
+  height: 80px;
   background-color: #95e1d3; }
   .footer_text {
     color: #333333;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    padding-top: 10px; }
+    padding-top: 30px; }
   .footer_url {
     color: #f38181; }
+
+.overlow {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.56);
+  top: 0;
+  z-index: 1; }
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-width: 400px;
+  max-height: 600px;
+  background-color: rgba(0, 0, 0, 0.4); }
+  .modal_title {
+    text-align: center;
+    font-size: 21px;
+    margin: 10px 0; }
+  .modal_distr {
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 10px; }
+  .modal_form {
+    text-align: center; }
+  .modal_item {
+    padding: 15px 60px;
+    margin: 5px 0; }
+  .modal_btn {
+    background-color: red;
+    color: #fff;
+    max-width: 50%;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=style.css.map */
