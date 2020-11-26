@@ -37,7 +37,7 @@
 				<div class="title">Creative Template</div>
 				<p class="subheader_text">Welcome <br> to MoGo</p>
 				<div class="subheader_line"></div>
-				<a class="subheader_btn" href=""> Learn more</a>
+				<a data-modal="consultation" class="subheader_btn" href=""> Learn more</a>
 			</div>
 		</div>
 	</section>
@@ -172,17 +172,23 @@
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d761.6184055245502!2d72.97728242713984!3d50.05316318572819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424358f8bc34bfd7%3A0x7d69dea9ee71db3!2z0KLQlCAi0KjQmNCaIg!5e0!3m2!1sru!2skz!4v1606279374155!5m2!1sru!2skz" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 	</div>
 </section>
-<div class="overlow">
-	<div class="modal">
+<div class="overlow" id="consultation">
+	<div class="modal" >
+		<div class="modal_close">&times;</div>
 		<div class="modal_title">Форма заказа</div>
 		<div class="modal_distr">В течении 5 минут мы Вам перезвоним</div>	
-		<form action="" class="modal_form">
+		<form action="" class="modal_form" ></form>
 			<input type="text" class="modal_item" value="Ваше имя"> <br>
 			<input type="text" class="modal_item" value="Ваша почта"> <br>
 			<input type="text" class="modal_item" value="Номер телефона">
 			<div class="modal_btn"><a href=""> Перезвонить</a></div>
 		</form>
 	</div>	
+	<div class="overlow" id="answer">
+		<div class="modal" >
+			<div class="modal_close">&times;</div>
+			<div class="modal_title">Спасибо за ваше обращение</div>
+			<div class="modal_distr">Ожидайте звонка</div>	
 </div>
 <section class="footer">
 	<div class="footer_text">© 2016 MoGo free PSD template by 

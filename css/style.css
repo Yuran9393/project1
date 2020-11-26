@@ -694,5 +694,14 @@ a {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 10px; }
+  .modal_close {
+    position: absolute;
+    top: -15px;
+    right: -25px;
+    font-size: 40px;
+    color: red; }
+
+#consultation {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

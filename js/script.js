@@ -30,7 +30,8 @@ window.addEventListener('DOMContentLoaded', () => {
         adaptiveHeight: true,
         prevArrow: '<button type="button" class="slick-prev">Вперёд</button>',
         nextArrow: '<button type="button" class="slick-next">Назад</button>',
-        
+     
        })
-      
+       //modal
+       $(['data-modal=consultation']).fadeOut();
   });
