@@ -645,7 +645,7 @@ a {
     margin-top: 20px; }
 
 .footer {
-  height: 80px;
+  height: 85px;
   background-color: #95e1d3; }
   .footer_text {
     color: #333333;
@@ -685,7 +685,7 @@ a {
     text-align: center; }
   .modal_item {
     padding: 15px 60px;
-    margin: 5px 0; }
+    margin: 10px 0 10px 13%; }
   .modal_btn {
     background-color: red;
     color: #fff;
@@ -694,14 +694,22 @@ a {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 10px; }
-  .modal_close {
+  .modal_close, .modal_close2 {
     position: absolute;
     top: -15px;
     right: -25px;
     font-size: 40px;
-    color: red; }
+    color: red;
+    cursor: pointer; }
+  .modal_close2 {
+    position: absolute;
+    top: -15px;
+    right: -25px;
+    font-size: 40px;
+    color: red;
+    cursor: pointer; }
 
-#consultation {
+#wrapper-block, #wrapper-block2 {
   display: none; }
 
 /*# sourceMappingURL=style.css.map */

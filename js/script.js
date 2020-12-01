@@ -31,7 +31,42 @@ window.addEventListener('DOMContentLoaded', () => {
         prevArrow: '<button type="button" class="slick-prev">Вперёд</button>',
         nextArrow: '<button type="button" class="slick-next">Назад</button>',
      
-       })
-       //modal
-       $(['data-modal=consultation']).fadeOut();
+       });
+       //var a = document.getElementById('width-block');
+       //var c = document.getElementById('wrapper-block');
+      // a.onclick = function con(){
+      // c.style.cssText = "display:block";
+      // };
+
+ //modal_call
+var modal = document.getElementById('wrapper-block');
+var btn = document.getElementById("width-block");
+var span = document.getElementsByClassName("modal_close")[0];
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+};
+
+//answer
+var modal2 = document.getElementById('wrapper-block2');
+var btn2 = document.getElementById("width-block2");
+var span2 = document.getElementsByClassName("modal_close2")[0];
+btn2.onclick = function() {
+    modal2.style.display = "block";
+}
+span2.onclick = function() {
+    modal2.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+};
   });
